@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/blog/2024/09/25/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3><span id="run-server">Run server</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3><span id="generate-static-files">Generate static files</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>实验文档</title>
+    <url>/blog/2024/09/29/shiyan/</url>
+    <content><![CDATA[<p>内容内容</p>
+<img src="/blog/2024/09/29/shiyan/1.png" class title="shiyan11">]]></content>
+  </entry>
+  <entry>
+    <title>1</title>
+    <url>/blog/2024/10/05/1/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>试验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/blog/2024/09/28/Levenshtein-Distance/</url>
+    <content><![CDATA[<h1><span id="使用levenshtein-distance进行点表数据的比对">使用Levenshtein Distance进行点表数据的比对</span></h1><hr>
+<h2><span id="title-shiyandate-2024-09-29-131618tags">title: shiyan<br>date: 2024-09-29 13:16:18<br>tags:</span></h2><p>ID: SOP-5<br>编写日期: 2024年9月26日</p>
+<p>参考（什么是莱文斯坦距离）：<a href="https://www.notion.so/Levenshtein-Distance-10d9c3f2ddee80d69973fc02b15fdf2e?pvs=21">莱文斯坦距离（<strong>Levenshtein Distance）的应用</strong></a> </p>
+<p>使用python的<code>fuzzywuzzy</code>库，对原始点表中的”特征字段“进行基于莱文斯坦距离的映射，将”特征字段“映射为”字典中的“标准参数名称”，然后可以vlookup出对应的编码；</p>
+<p>应用场景如下，即逐一制定数据点后缀：</p>
+<ul>
+<li>接下来需要<strong>逐行</strong>确定该<code>采集点特征字段</code>对应的数据点后缀（大工程，考虑）：<ol>
+<li>使用”E:\工作\2.方案设计\0 模板文件夹\数据点编码的模板.xlsx“来进行梳理；</li>
+<li>梳理后粘贴进<strong>数据点清单</strong>sheet页中；</li>
+</ol>
+</li>
+</ul>
+<p>与AI的沟通如下图：</p>
+<img src="/blog/2024/09/28/Levenshtein-Distance/1.png" class title="中文">]]></content>
+  </entry>
+  <entry>
+    <title>实验文档</title>
+    <url>/blog/2024/10/05/%E5%AE%9E%E9%AA%8C%E6%96%87%E6%A1%A3/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>第一篇博客</title>
+    <url>/blog/2024/10/01/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>开始编辑<br>写作111<br>马卓然2</p>
+<p><img src="/blog/image-20241001191259508.png" alt="image-20241001191259508"></p>
+<p>2024年10月1日<br>实验一下插入图片</p>
+<p>不用代码模式也能写</p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/blog/2024/10/05/%E5%AE%9E%E9%AA%8C%E6%96%87%E6%A1%A310%E6%9C%884%E6%97%A5/</url>
+    <content><![CDATA[<p>111<br>新建md文档</p>
+<h1><span id="标题1">标题1</span></h1><h2><span id="标题2">标题2</span></h2><p>正文</p>
+<h3><span id="标题3">标题3</span></h3><blockquote>
+<p>引用<br>还有啥<code>代码段？</code><br>引用结束</p>
+</blockquote>
+<p>啊？</p>
+<img src="/blog/2024/10/05/%E5%AE%9E%E9%AA%8C%E6%96%87%E6%A1%A310%E6%9C%884%E6%97%A5/17280329522883.jpg" class>
+
+
+<p>哈哈哈圆圆真可爱</p>
+<ul>
+<li><p><input disabled type="checkbox"> 
+试试这个</p>
+</li>
+<li><p><input disabled type="checkbox"> 
+好像不能交互</p>
+</li>
+<li><p><input disabled type="checkbox"> </p>
+<img src="/blog/2024/10/05/%E5%AE%9E%E9%AA%8C%E6%96%87%E6%A1%A310%E6%9C%884%E6%97%A5/image-20241005111930555.png" class title="image-20241005111930555">
+</li>
+<li><p><a href="#%E6%A0%87%E9%A2%981">标题1</a></p>
+<ul>
+<li><a href="#%E6%A0%87%E9%A2%982">标题2</a><ul>
+<li><a href="#%E6%A0%87%E9%A2%983">标题3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+  </entry>
+</search>
